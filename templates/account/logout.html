@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}{% endblock %}
+{% block content %}
+
+    <div class="row text-center vertical-middle-sum">
+        <p>您已退出</p>
+        <p>重新<a href="{% url 'account:user_login' %}">登陆</a></p>
+    </div>
+
+{% endblock %}
